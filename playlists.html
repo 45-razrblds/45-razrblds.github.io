@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify Playlists - Minimalistic Dark Mode</title>
+        <style>
+            body {
+                background-color: #121212;
+                color: #ffffff;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            .container {
+                width: 100%;
+                max-width: 600px;
+                padding: 20px;
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .header h1 {
+                font-size: 28px;
+                font-weight: 600;
+                margin: 0;
+                color: #1db954; /* Spotify green */
+            }
+            .playlist {
+                margin-bottom: 20px;
+                border-radius: 12px;
+                overflow: hidden;
+                background-color: #1e1e1e;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            .playlist iframe {
+                width: 100%;
+                height: 152px;
+                border: none;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 30px;
+                font-size: 14px;
+                color: #b3b3b3;
+            }
+            .footer a {
+                color: #1db954;
+                text-decoration: none;
+            }
+            .footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>My Playlists</h1>
+            </div>
+            <div class="playlist">
+                <iframe
+                    style="border-radius: 12px"
+                    src="https://open.spotify.com/embed/playlist/7LBWCwKfpt2RI783Ob1yGR?utm_source=generator&theme=0"
+                    width="100%"
+                    height="152"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+            </div>
+            <div class="playlist">
+                <iframe
+                    style="border-radius: 12px"
+                    src="https://open.spotify.com/embed/playlist/6qiz5gFwqseTvu9ou3ZthS?utm_source=generator&theme=0"
+                    width="100%"
+                    height="152"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+            </div>
+            <div class="playlist">
+                <iframe
+                    style="border-radius: 12px"
+                    src="https://open.spotify.com/embed/playlist/14KM0INBUhezzm3YVSjNNV?utm_source=generator&theme=0"
+                    width="100%"
+                    height="152"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+            </div>
+            <div class="footer">
+                &copy; 2023 My Playlists | Made with
+                <a href="https://spotify.com" target="_blank">Spotify</a>
+            </div>
+        </div>
+    </body>
+</html>

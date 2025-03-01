@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Spotify Playlists - Minimalistic Dark Mode</title>
+        <title>My Devices</title>
         <style>
             body {
                 background-color: #121212;
                 color: #ffffff;
                 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
                 margin: 0;
-                padding: 0;
+                padding: 20px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -18,90 +18,197 @@
             }
             .container {
                 width: 100%;
-                max-width: 600px;
+                max-width: 800px;
                 padding: 20px;
             }
-            .header {
-                text-align: center;
+            .device {
                 margin-bottom: 30px;
-            }
-            .header h1 {
-                font-size: 28px;
-                font-weight: 600;
-                margin: 0;
-                color: #1db954; /* Spotify green */
-            }
-            .playlist {
-                margin-bottom: 20px;
+                padding: 20px;
                 border-radius: 12px;
-                overflow: hidden;
                 background-color: #1e1e1e;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             }
-            .playlist iframe {
-                width: 100%;
-                height: 152px;
-                border: none;
+            .device h2 {
+                margin: 0 0 15px 0;
+                font-size: 24px;
+                color: #1db954; /* Spotify green */
             }
-            .footer {
-                text-align: center;
-                margin-top: 30px;
-                font-size: 14px;
-                color: #b3b3b3;
+            .device ul {
+                margin: 0;
+                padding: 0 0 0 20px;
+                list-style-type: none;
             }
-            .footer a {
-                color: #1db954;
-                text-decoration: none;
+            .device ul li {
+                margin-bottom: 10px;
+                font-size: 16px;
             }
-            .footer a:hover {
-                text-decoration: underline;
+            .device ul li strong {
+                color: #1db954; /* Spotify green */
+            }
+            .accessories {
+                margin-top: 20px;
+                padding: 20px;
+                border-radius: 12px;
+                background-color: #1e1e1e;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            .accessories h3 {
+                margin: 0 0 15px 0;
+                font-size: 20px;
+                color: #1db954; /* Spotify green */
+            }
+            .accessories ul {
+                margin: 0;
+                padding: 0 0 0 20px;
+                list-style-type: none;
+            }
+            .accessories ul li {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            .accessories ul li strong {
+                color: #1db954; /* Spotify green */
             }
         </style>
     </head>
     <body>
         <div class="container">
-            <div class="header">
-                <h1>My Playlists</h1>
+            <!-- MacBook Air -->
+            <div class="device">
+                <h2>1. MacBook Air (M1, 2020)</h2>
+                <ul>
+                    <li>
+                        <strong>Processor:</strong> Apple M1 chip with 8-core
+                        CPU and 8-core GPU
+                    </li>
+                    <li><strong>Memory:</strong> 16 GB RAM</li>
+                    <li><strong>Storage:</strong> 1 TB SSD</li>
+                    <li>
+                        <strong>Display:</strong> 13.3-inch Retina display with
+                        a resolution of 2560 x 1600 pixels
+                    </li>
+                    <li>
+                        <strong>Battery Life:</strong> Up to 18 hours of
+                        wireless web usage
+                    </li>
+                    <li><strong>Operating System:</strong> macOS</li>
+                </ul>
             </div>
-            <div class="playlist">
-                <iframe
-                    style="border-radius: 12px"
-                    src="https://open.spotify.com/embed/playlist/7LBWCwKfpt2RI783Ob1yGR?utm_source=generator&theme=0"
-                    width="100%"
-                    height="152"
-                    frameborder="0"
-                    allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                ></iframe>
+
+            <!-- iPhone 12 Pro -->
+            <div class="device">
+                <h2>2. iPhone 12 Pro</h2>
+                <ul>
+                    <li>
+                        <strong>Processor:</strong> Apple A14 Bionic chip with
+                        6-core CPU and 4-core GPU
+                    </li>
+                    <li><strong>Memory:</strong> 6 GB RAM</li>
+                    <li>
+                        <strong>Storage Options:</strong> 128 GB, 256 GB, or 512
+                        GB
+                    </li>
+                    <li>
+                        <strong>Display:</strong> 6.1-inch Super Retina XDR OLED
+                        display with a resolution of 2532 x 1170 pixels
+                    </li>
+                    <li>
+                        <strong>Camera System:</strong> Triple 12 MP rear
+                        cameras (ultra-wide, wide, telephoto) and a 12 MP
+                        front-facing camera
+                    </li>
+                    <li>
+                        <strong>Battery Life:</strong> Up to 17 hours of talk
+                        time
+                    </li>
+                    <li><strong>Operating System:</strong> iOS</li>
+                </ul>
             </div>
-            <div class="playlist">
-                <iframe
-                    style="border-radius: 12px"
-                    src="https://open.spotify.com/embed/playlist/6qiz5gFwqseTvu9ou3ZthS?utm_source=generator&theme=0"
-                    width="100%"
-                    height="152"
-                    frameborder="0"
-                    allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                ></iframe>
+
+            <!-- iPad (10th Generation, 2022) -->
+            <div class="device">
+                <h2>3. iPad (10th Generation, 2022)</h2>
+                <ul>
+                    <li>
+                        <strong>Processor:</strong> Apple A14 Bionic chip with
+                        6-core CPU and 4-core GPU
+                    </li>
+                    <li><strong>Memory:</strong> 4 GB RAM</li>
+                    <li><strong>Storage Options:</strong> 64 GB or 256 GB</li>
+                    <li>
+                        <strong>Display:</strong> 10.9-inch Liquid Retina
+                        display with a resolution of 2360 x 1640 pixels
+                    </li>
+                    <li>
+                        <strong>Camera System:</strong> 12 MP rear camera and 12
+                        MP front-facing camera
+                    </li>
+                    <li>
+                        <strong>Battery Life:</strong> Up to 10 hours of surfing
+                        the web on Wi-Fi or watching video
+                    </li>
+                    <li><strong>Operating System:</strong> iPadOS</li>
+                </ul>
             </div>
-            <div class="playlist">
-                <iframe
-                    style="border-radius: 12px"
-                    src="https://open.spotify.com/embed/playlist/14KM0INBUhezzm3YVSjNNV?utm_source=generator&theme=0"
-                    width="100%"
-                    height="152"
-                    frameborder="0"
-                    allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                ></iframe>
-            </div>
-            <div class="footer">
-                &copy; 2023 My Playlists | Made with
-                <a href="https://spotify.com" target="_blank">Spotify</a>
+
+            <!-- Accessories for iPad -->
+            <div class="accessories">
+                <h3>Accessories for iPad</h3>
+                <ul>
+                    <li>
+                        <strong>Logitech Slim Folio Keyboard Case:</strong>
+                        <ul>
+                            <li>
+                                <strong>Compatibility:</strong> Designed for
+                                iPad (10th Generation)
+                            </li>
+                            <li>
+                                <strong>Features:</strong>
+                                <ul>
+                                    <li>
+                                        Integrated Bluetooth keyboard with
+                                        well-spaced keys
+                                    </li>
+                                    <li>Provides front and back protection</li>
+                                    <li>
+                                        Holder for Logitech Crayon or Apple
+                                        Pencil (1st generation)
+                                    </li>
+                                    <li>
+                                        Three usage modes: Typing, Viewing, and
+                                        Sketching
+                                    </li>
+                                    <li>
+                                        Long battery life powered by replaceable
+                                        coin cell batteries
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Apple Pencil (1st Generation):</strong>
+                        <ul>
+                            <li>
+                                <strong>Features:</strong>
+                                <ul>
+                                    <li>
+                                        Pressure and tilt sensitivity for
+                                        precise input
+                                    </li>
+                                    <li>
+                                        Pairs and charges via Lightning
+                                        connector
+                                    </li>
+                                    <li>
+                                        Ideal for drawing, note-taking, and
+                                        marking up documents
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </body>
